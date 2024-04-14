@@ -1,13 +1,22 @@
 :root{
-    --font-color-main:#000000;
+    --font-color-main: #000000;
 }
 .main{
-    width:80%;
-    text-align:center;
+    width: 80%;
+    text-align: center;
 }
 .headtext{
-    font-size:150%;
-    font-family:'Micrisoft Yahei',Sans-serif;
-    font-weight:bold;
-    color:var(--font-color-main)
+    font-size: 25px;
+    font-family: 'Micrisoft Yahei',sans-serif;
+    font-weight: bold;
+    text-decoration: center;
+    color: var(--font-color-main)
+}
+.small{
+    width: 50%;
+}
+.readme{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
