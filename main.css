@@ -1,0 +1,13 @@
+:root{
+    --font-color-main:#000000;
+}
+.main{
+    width:80%;
+    text-align:center;
+}
+.headtext{
+    font-size:150%;
+    font-family:'Micrisoft Yahei',Sans-serif;
+    font-weight:bold;
+    color:var(--font-color-main)
+}
