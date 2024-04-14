@@ -4,6 +4,7 @@
 .main{
     width: 80%;
     text-align: center;
+    margin: auto;
 }
 .headtext{
     font-size: 25px;
@@ -14,6 +15,7 @@
 }
 .small{
     width: 50%;
+    margin: auto;
 }
 .readme{
     font-size: 20px;
