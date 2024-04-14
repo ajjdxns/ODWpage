@@ -26,10 +26,19 @@
     
 }
 .join{
-    width: 25%;
-    height: 10%;
-    color: red;
-    font: color var(--font-color-set);
+    position: relative;
+    background-color: #ffffffff;
+    border-radius:8px;
+    font-size: 18px;
+    color:  red;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
 }
 .withe{
     --font-color-set: #ffffff;
