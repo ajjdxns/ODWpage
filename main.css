@@ -25,6 +25,12 @@
     transition: none ease-in-out 2s;
     
 }
+.join{
+    width: 25%;
+    height: 10%;
+    color: red;
+    font: color var(--font-color-set);
+}
 .withe{
     --font-color-set: #ffffff;
     transition: all ease-in-out 2s;
