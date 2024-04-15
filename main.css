@@ -29,6 +29,11 @@ li{
     margin: auto;
     text-align: center;
 }
+.big{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
 .readme{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
