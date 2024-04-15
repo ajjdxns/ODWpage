@@ -5,22 +5,19 @@
 .menu{
     list-style-image: url(img/menu.png);
 }
+.joinimg{
+    height: 25px;
+    width: 25px;
+}
 .joinmenu{
     width: 75%;
-    height: 25px;
+    height: 20px;
     position: relative;
     background-color: pink;
     border-radius:8px;
-    font-size: 18px;
+    font-size: 16px;
     color:  red;
-    padding: 10px 20px;
-    margin: 4px 2px;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
 }
 .main{
     width: 80%;
