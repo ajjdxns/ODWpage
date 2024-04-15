@@ -2,6 +2,26 @@
     background-color: white;
     --font-color-main: #000000;
 }
+.menu{
+    list-style-image: url(img/menu.png);
+}
+.joinmenu{
+    width: 75%;
+    height: 25px;
+    position: relative;
+    background-color: pink;
+    border-radius:8px;
+    font-size: 18px;
+    color:  red;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
 .main{
     width: 80%;
     text-align: center;
@@ -27,7 +47,7 @@
 }
 .join{
     position: relative;
-    background-color: #ffffffff;
+    background-color: pink;
     border-radius:8px;
     font-size: 18px;
     color:  red;
