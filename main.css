@@ -9,15 +9,9 @@
     height: 20px;
     width: 20px;
 }
-.joinmenu{
-    width: 75%;
-    height: 20px;
-    position: relative;
-    background-color: pink;
-    border-radius:8px;
-    font-size: 16px;
-    color:  red;
-    text-align: center;
+.lkr:link{
+    color: black;
+    background-color: red;
 }
 .main{
     width: 80%;
