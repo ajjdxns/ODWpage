@@ -9,6 +9,9 @@
 li{
     list-style: none;
 }
+.menudiv{
+    text-align: center;
+}
 .menutext{
     text-align: center;
     text-decoration: none;
