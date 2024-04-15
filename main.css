@@ -34,8 +34,8 @@ div{
     width: 90%;
 }
 .photo{
-    width: auto;
-    height: auto;
+    width: 100px;
+    height: 100px;
 }
 details {  
     position: relative;  
