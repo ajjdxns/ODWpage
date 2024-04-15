@@ -37,38 +37,6 @@ details {
     height: auto;  
     max-height: 25;  
     transition: max-height 0.5s ease-in-out;  
-} 
-details[open] {  
-    max-height: 1000px; /* 足够大的值以显示所有内容 */  
-    animation: expand 0.5s ease-in-out forwards;  
-}
-details[close] {
-    max-height: 25px;
-    animation: close 0.5 ease-in-out forwards;
-}
-details summary {  
-    cursor: pointer;  
-}  
-/* 动画关键帧 */
-@keyframes expand { 
-    from {  
-        max-height: 0px;  
-        opacity: 0.5;  
-        }  
-        to {  
-            max-height: 1000px;  
-            opacity: 1;  
-        }                                                                                                        
-}
-@keyframes close {
-    from{
-        max-height: 1000px;
-        opacity: 0.5;
-    }
-    to{
-        max-height: 0px;
-        opacity: 1;
-    }
 }
 .main{
     width: 80%;
