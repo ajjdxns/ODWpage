@@ -29,6 +29,13 @@ li{
 .menutext:active{
     color: var(--default-menu-color);
 }
+div{
+    text-align: center;
+}
+.photo{
+    width: 90%;
+    height: auto;
+}
 details {  
     position: relative;  
     border: 1px solid #ccc;  
