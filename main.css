@@ -41,7 +41,8 @@ li{
 }
 .join{
     width: 45%;
-    height: 50px;
+    height: 30%;
+    font-size: 25px;
     background-color: pink;
     color: red;
     border: none;
@@ -49,7 +50,8 @@ li{
 }
 .about{
     width: 45%;
-    height: 50px;
+    height: 30%;
+    font-size: 25px;
     background-color: aquamarine;
     color: green;
     border: none;
