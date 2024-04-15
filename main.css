@@ -16,11 +16,6 @@ li{
 .menutext{
     text-align: center;
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-}
-.menutext[open] > *{
-    padding-left: -1;
 }
 .menutext:link{
     color: var(--default-menu-color);
