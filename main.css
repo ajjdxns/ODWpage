@@ -3,11 +3,7 @@
     --font-color-main: #000000;
 }
 .menu{
-    list-style: none;
-}
-.joinimg{
-    height: 20px;
-    width: 20px;
+    list-style-image: url(img/menu.png);
 }
 .lkr:link{
     color: black;
