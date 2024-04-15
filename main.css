@@ -3,11 +3,11 @@
     --font-color-main: #000000;
 }
 .menu{
-    list-style-image: url(img/menu.png);
+    list-style: none;
 }
 .joinimg{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
 .joinmenu{
     width: 75%;
