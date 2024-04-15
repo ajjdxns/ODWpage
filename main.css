@@ -14,7 +14,7 @@ li{
     color: red;
     background-color: pink;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .main{
     width: 80%;
@@ -40,19 +40,20 @@ li{
     
 }
 .join{
-    position: relative;
+    width: 45%;
+    height: 30%;
     background-color: pink;
-    border-radius:8px;
-    font-size: 18px;
-    color:  red;
-    padding: 10px 20px;
-    margin: 4px 2px;
-    text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
+    color: red;
+    border: none;
+    border-radius: 10px;
+}
+.about{
+    width: 45%;
+    height: 30%;
+    background-color: aquamarine;
+    color: green;
+    border: none;
+    border-radius: 10px;
 }
 .withe{
     --font-color-set: #ffffff;
