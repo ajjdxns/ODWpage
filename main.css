@@ -29,6 +29,21 @@ li{
 .menutext:active{
     color: var(--default-menu-color);
 }
+details {  
+    border: 1px solid #ccc;  
+    padding: 10px;  
+    max-height: 300px;  
+    overflow: hidden;  
+    transition: max-height 0.5s ease-in-out;  
+}  
+                            
+details[open] {
+    max-height: 100%;
+}  
+                                      
+summary { 
+    cursor: pointer;
+}
 .main{
     width: 80%;
     text-align: center;
