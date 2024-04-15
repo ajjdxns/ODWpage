@@ -35,7 +35,7 @@ details {
     padding: 10px;  
     overflow: hidden;  
     height: auto;  
-    max-height: 0;  
+    max-height: auto;  
     transition: max-height 0.5s ease-in-out;  
 } 
 details[open] {  
@@ -48,7 +48,7 @@ details summary {
 /* 动画关键帧 */
 @keyframes expand { 
     from {  
-        max-height: 0;  
+        max-height: auto;  
         opacity: 0.5;  
         }  
         to {  
