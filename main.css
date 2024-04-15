@@ -31,9 +31,10 @@ li{
 }
 div{
     text-align: center;
+    width: 90%;
 }
 .photo{
-    width: 90%;
+    width: auto;
     height: auto;
 }
 details {  
