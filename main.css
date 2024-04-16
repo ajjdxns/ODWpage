@@ -13,8 +13,7 @@ li{
     width: 95%;
     text-align: center;
 }
-.menutext a{
-    height: auto;
+.menutext{
     text-align: center;
     text-decoration: none;
 }
@@ -102,6 +101,9 @@ details[open]{
     color: green;
     border: none;
     border-radius: 10px;
+}
+a{
+    text-decoration: none;
 }
 .withe{
     --font-color-set: #ffffff;
