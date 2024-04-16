@@ -13,7 +13,7 @@ li{
     width: 95%;
     text-align: center;
 }
-.menutext{
+.menutext a{
     text-align: center;
     text-decoration: none;
 }
