@@ -35,8 +35,8 @@ div{
     width: 90%;
 }
 .photo{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: auto;
 }
 details {  
     position: relative;  
@@ -83,6 +83,7 @@ details[open]{
 }
 .join{
     width: 45%;
+    min-height: 30px;
     height: 30%;
     font-size: 25px;
     background-color: pink;
@@ -93,6 +94,7 @@ details[open]{
 .about{
     width: 45%;
     height: 30%;
+    min-height: 30px;
     font-size: 25px;
     background-color: aquamarine;
     color: green;
