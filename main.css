@@ -30,6 +30,7 @@ li{
     color: var(--default-menu-color);
 }
 div{
+
     text-align: center;
     width: 90%;
 }
@@ -44,7 +45,12 @@ details {
     overflow: hidden;  
     height: auto;  
     max-height: 25;  
-    transition: max-height 0.5s ease-in-out;  
+    transition: height 0.5s 2s ease-in-out;  
+}
+details[open]{
+    height: auto;
+    max-height: 1000px;
+    transition: height 0.5s 2s ease-in-out;
 }
 .main{
     width: 80%;
