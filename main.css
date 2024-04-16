@@ -104,6 +104,7 @@ details[open]{
 }
 a{
     text-decoration: none;
+    color: #000000;
 }
 .withe{
     --font-color-set: #ffffff;
