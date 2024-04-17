@@ -1,1 +1,1 @@
-document.getElementById('online').innerHTML=navigator.platform
+console.log(navigator.platform)
