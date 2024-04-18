@@ -6,3 +6,7 @@ div{
     text-align: center;
     color: gainsboro;
 }
+img{
+    width: 100%;
+    height: auto;
+}
