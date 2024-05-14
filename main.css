@@ -3,6 +3,17 @@
     --font-color-main: #000000;
     --default-menu-color: #000000;
 }
+.warnimg{
+    height: 50%;
+    width: auto;
+}
+.warning{
+    background-color: pink;
+    color: red;
+    width: 100%;
+    text-align: center;
+    height: 25px;
+}
 .menu{
     list-style-image: url(img/menu.png);
 }
