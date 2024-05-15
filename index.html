@@ -25,9 +25,11 @@
                     <a href="over/afdian.html" class="menutext">爱发电贡献</a><br>
                 </div>
             </details>
-            <noscript><div class="warning"><img src="img/warning.png" alt="" class="warnimg">对不起，你没有JavaScript，可能无法使用某些功能<div></noscript>
+            <noscript><div class="warning"><img src="img/warning.png" alt="" class="warnimg">对不起，你没有JavaScript，可能无法使用某些功能</div></noscript>
             <script type="text/javascript">
-                if("/QIHU 360SE")
+                if(/QIHU 360SE/i.test(navigator.userAgent)){
+                    document.write('<div class="warning"><img src="img/warning.png" alt="" class="warnimg">你正在使用不兼容的浏览器，部分页面会出现错误。</div>')
+                }
             </script>
         </div>
         <div class="small">
