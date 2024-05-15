@@ -5,3 +5,7 @@ if (isDesktop){
     console.log("[INFO]正在跳转至电脑版...")
     window.location.assign("https://mcyouxi.asia/")
 }
+var play = new Audio("sound/bgm.ogg");
+while(true){
+    play.play()
+}
